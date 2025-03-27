@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slide-container">
+        <div class="slide">
+            <img src="images/image1.jpg" alt="">
+            <div class="caption">caption Text1</div>
+        </div>
+        <div class="slide">
+            <img src="images/image2.jpg" alt="">
+            <div class="caption">caption Text2</div>
+        </div>
+        <div class="slide">
+            <img src="images/image3.jpg" alt="">
+            <div class="caption">caption Text3</div>
+        </div>
+        <div class="slide">
+            <img src="images/image4.jpg" alt="">
+            <div class="caption">caption Text4</div>
+        </div>
+        <div class="slide">
+            <img src="images/image5.webp" alt="">
+            <div class="caption">caption Text5</div>
+        </div>
+
+        <span class="arrow" id="prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow" id="next" onclick="controller(1)">&#10095;</span>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
